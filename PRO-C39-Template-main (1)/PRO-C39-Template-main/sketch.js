@@ -71,7 +71,7 @@ function draw() {
    
   if (gameState===PLAY){
 
-    jungle.velocityX=-3
+    jungle.velocityX=-5
 
     if(jungle.x<100)
     {
@@ -138,7 +138,7 @@ function draw() {
   fill("black")
   text("Score: "+ score, camera.position.x,50);
   
-  if(score >= 5){
+  if(score >= 10){
     kangaroo.visible = false;
     textSize(30);
     stroke(3);
